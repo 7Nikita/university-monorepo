@@ -63,7 +63,6 @@ print('accept' if l < critical_l else 'decline')
 n = 5
 a, b = find_interval(exp, dev)
 X, Y, a, b = gen(a, b, n)
-Y = [3.34, 14.637, 20.539, 22.087, 25.028]
 
 omega2_critical = 0.744
 omega2 = sum((F(Y[i]) - (i + 0.5) / n) ** 2 for i in range(n)) + 1 / (12 * n)
