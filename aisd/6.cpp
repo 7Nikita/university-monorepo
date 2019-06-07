@@ -103,7 +103,6 @@ int main(){
     sort(x.begin(), x.end(), cmp);
     build_tree(1, 1, n);
     for(auto i: x){
-        //cout << i.s.f + 1<< " " << i.s.s + 1 << " " << i.f << endl;
         update(1, 1, n, i.s.f, i.s.s, i.f);
     }
     rep(i, 1, n + 1){
