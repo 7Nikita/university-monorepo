@@ -1,3 +1,4 @@
+#include <cmath>
 #include <cstdio>
 #include <iostream>
 #include <stdexcept>
@@ -5,7 +6,7 @@
 
 float * solve_quadratic_equation(const float &a, const float &b, const float &c){
     
-    if (!a) throw std::invalid_argument("A should not be zero.");
+    if (!a) throw std::invalid_argument("\'A\' should not be a zero.");
 
     __m128 vec = _mm_mul_ps(_mm_set_ps(b, a, a, a), _mm_set_ps(b, -4 * c, 2, -2));
 
@@ -16,8 +17,8 @@ float * solve_quadratic_equation(const float &a, const float &b, const float &c)
 
     float sqrt_d;
     _mm_store_ss(&sqrt_d, _mm_sqrt_ss(vec));
-    
-    if (sqrt_d < 0) throw std::runtime_error("There are no roots: D < 0.");
+
+    if (sqrt_d < 0 || isnan(sqrt_d)) throw std::runtime_error("There are no roots: D < 0.");
     
     vec = _mm_div_ps(_mm_set_ps(b, sqrt_d, sqrt_d, 0), _mm_set_ps(roots[3], roots[3], roots[2], roots[2]));
 
@@ -28,14 +29,26 @@ float * solve_quadratic_equation(const float &a, const float &b, const float &c)
 }
 
 int main(){
-    
+
+    printf("a * x^2 + b * x + c = 0\n");
+
     float a, b, c;
-    scanf("%f%f%f", &a, &b, &c);
+
+    printf("Enter \'a\': ");
+    scanf("%f", &a);
     
+    printf("Enter \'b\': ");
+    scanf("%f", &b);
+
+    printf("Enter \'c\': ");
+    scanf("%f", &c);
+    
+    printf("\n%f * x^2 + %f * b + %f = 0\n\n", a, b, c);
+
     float *ans = solve_quadratic_equation(a, b, c);
 
-    printf("x1 = %f, x2 = %f\n", ans[0], ans[1]);
-
+    printf("%f * %f ^ 2 + %f * %f + %f = 0\n", a, ans[0], b, ans[0], c);
+    printf("%f * %f ^ 2 + %f * %f + %f = 0\n", a, ans[1], b, ans[1], c);
+    
     return 0;
 }
-
