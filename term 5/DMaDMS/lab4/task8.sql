@@ -1,0 +1,15 @@
+select enter_date, finish_date, birthday, updated_at, course from student limit 5; select name, short_name from university limit 5;
+select name, short_name from faculty limit 5;
+select name, short_name from specialization limit 5;
+select group_number from default_schema.group limit 5;
+select house_number, flat_number, email, skype, telegram, house_pavilion from address limit 5;
+select name, type from city limit 5;
+select name, short_name, type from country limit 5;
+select value from postal_code limit 5;
+select name, type from street limit 5;
+select operator_code, value from phone_number limit 5;
+select passport_series, passport_number, passport_authority, issued_at, expires_at from passport_data limit 5;
+select name from region limit 5;
+select name from district limit 5;
+select value from first_name limit 5;
+select value from last_name limit 5;
