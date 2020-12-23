@@ -1,0 +1,82 @@
+Производитель: Apple, Samsung, Xiaomi, Maxvi, Nokia, Nobby
+Операционная система: iOS, Android, Nucleus, KaiOS, ThreadX, S30
+Технология экрана: IPS, TFT, AMOLED, Super AMOLED, PLS, OLED
+Разрешение экрана: 160×128, 240×320, 1280x720, 1600x720, 1920x1080, 2280×1080, 2400×1080, 3040x1440, 3200x1440
+Оперативная память: 0.032, 8, 6, 4, 3, 2, 1
+Постоянная память: 0.032, 16, 32, 64, 128, 256, 512
+Тип процессора: Apple A13 Bionic, Apple A12 Bionic, Apple A10, Qualcomm Snapdragon 865, Qualcomm Snapdragon 855, Qualcomm Snapdragon 845, Qualcomm Snapdragon 665, Exynos 9820, Exynos 9810, MediaTek MT6261D, Spreadtrum SC7731E
+Разъем подключения: USB Type-C, miroUSB, Lightning, USB Type-A, нет
+Количество SIM-карт: 1, 2, 3, 4
+
+if [Производитель] = "Apple" then (
+    [Операционная система] = "iOS" and
+    [Технология экрана] in { "AMOLED", "IPS", "OLED" } and
+    [Разрешение экрана] in { "1920x1080", "2688x1242" } and
+    [Оперативная память] > 1 and
+    [Оперативная память] < 8 and
+    [Тип процессора] in { "Apple A13 Bionic", "Apple A12 Bionic", "Apple A10" } and
+    [Разъем подключения] = "Lightning" and 
+    [Количество SIM-карт] = 1
+);
+
+if [Производитель] = "Samsung" then (
+    [Операционная система] = "Android" and
+    [Технология экрана] in { "Super AMOLED", "TFT", "PLS" } and
+    [Разрешение экрана] in { "1600x720", "2280×1080", "3040x1440", "3200x1440" } and
+    [Оперативная память] > 1 and
+    [Постоянная память] < 512 and
+    [Тип процессора] in { "Qualcomm Snapdragon 855", "Qualcomm Snapdragon 865", "Qualcomm Snapdragon 845", "Exynos 9810", "Exynos 9820" } and
+    [Разъем подключения] in { "USB Type-A", "USB Type-C", "miroUSB" } and 
+    [Количество SIM-карт] <= 2
+);
+
+if [Производитель] = "Xiaomi" then (
+    [Операционная система] = "Android" and
+    [Технология экрана] in { "Super AMOLED", "TFT", "PLS" } and
+    [Разрешение экрана] in { "1600x720", "2280×1080", "2400×1080" } and
+    [Оперативная память] > 1 and
+    [Постоянная память] < 512 and
+    [Тип процессора] in { "Qualcomm Snapdragon 845", "Qualcomm Snapdragon 855", "Qualcomm Snapdragon 865", "Qualcomm Snapdragon 665" } and
+    [Разъем подключения] in { "USB Type-C", "miroUSB" } and 
+    [Количество SIM-карт] <= 2
+);
+
+
+#
+# Не знаю имеет ли смысл писать такие условия, т. к. на выходе это будет 2 теста.
+# По условию лабораторной сказано: не менее 6 параметров, где возможно.
+# Для непопулярных и неразнообразных случаев пришлось добавлять фильтры, которые нигде больше не используются.
+#
+
+if [Производитель] = "Maxvi" then (
+    [Операционная система] = "Nucleus" and
+    [Технология экрана] = "TFT" and
+    [Разрешение экрана] in { "160×128", "240×320" } and
+    [Оперативная память] = 0.032 and
+    [Постоянная память] = 0.032 and
+    [Тип процессора] = "MediaTek MT6261D" and
+    [Разъем подключения] = "miroUSB" and 
+    [Количество SIM-карт] = 2
+);
+
+if [Производитель] = "Nobby" then (
+    [Операционная система] in { "Android", "ThreadX", "KaiOS" } and
+    [Технология экрана] = "IPS" and
+    [Разрешение экрана] = "1280x720" and
+    [Оперативная память] <= 2 and
+    [Постоянная память] <= 16 and
+    [Тип процессора] = "Spreadtrum SC7731E" and
+    [Разъем подключения] = "miroUSB" and 
+    [Количество SIM-карт] = 2
+);
+
+if [Производитель] = "Nokia" then (
+    [Операционная система] in { "Android", "S30" } and
+    [Технология экрана] in { "IPS", "TFT" } and
+    [Разрешение экрана] in { "160×128", "240×320", "1920×1080" } and
+    [Оперативная память] <= 4 and
+    [Постоянная память] <= 64 and
+    [Тип процессора] in { "MediaTek MT6261D", "Qualcomm Snapdragon 665" } and
+    [Разъем подключения] in { "USB Type-C", "miroUSB" } and 
+    [Количество SIM-карт] = 2
+);

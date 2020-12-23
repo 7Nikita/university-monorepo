@@ -1,0 +1,85 @@
+# https://www.21vek.by/mobile/
+Производитель	Операционная система	Технология экрана	Разрешение экрана	Оперативная память	Постоянная память	Тип процессора	Разъем подключения	Количество SIM-карт
+Samsung	Android	TFT	2280×1080	2	256	Qualcomm Snapdragon 845	miroUSB	2
+Samsung	Android	Super AMOLED	1600x720	4	16	Exynos 9810	miroUSB	1
+Apple	iOS	IPS	1920x1080	3	256	Apple A10	Lightning	1
+Apple	iOS	AMOLED	1920x1080	6	256	Apple A12 Bionic	Lightning	1
+Apple	iOS	OLED	1920x1080	2	64	Apple A10	Lightning	1
+Xiaomi	Android	PLS	2400×1080	4	256	Qualcomm Snapdragon 665	USB Type-C	2
+Nokia	S30	IPS	160×128	3	32	MediaTek MT6261D	miroUSB	2
+Apple	iOS	AMOLED	1920x1080	4	512	Apple A10	Lightning	1
+Nokia	S30	TFT	240×320	0.032	16	Qualcomm Snapdragon 665	USB Type-C	2
+Samsung	Android	TFT	3040x1440	6	64	Exynos 9810	USB Type-A	2
+Samsung	Android	Super AMOLED	3200x1440	8	128	Exynos 9820	miroUSB	2
+Samsung	Android	PLS	3040x1440	2	128	Qualcomm Snapdragon 865	USB Type-C	1
+Nokia	Android	IPS	240×320	1	0.032	MediaTek MT6261D	USB Type-C	2
+Samsung	Android	PLS	2280×1080	3	64	Exynos 9820	USB Type-A	1
+Apple	iOS	IPS	1920x1080	6	128	Apple A10	Lightning	1
+Xiaomi	Android	TFT	2400×1080	6	0.032	Qualcomm Snapdragon 855	miroUSB	1
+Samsung	Android	Super AMOLED	1600x720	2	16	Qualcomm Snapdragon 855	USB Type-A	2
+Samsung	Android	Super AMOLED	2280×1080	8	32	Exynos 9810	USB Type-C	1
+Apple	iOS	OLED	1920x1080	3	16	Apple A12 Bionic	Lightning	1
+Samsung	Android	TFT	3200x1440	3	256	Qualcomm Snapdragon 855	USB Type-C	2
+Apple	iOS	AMOLED	1920x1080	2	0.032	Apple A13 Bionic	Lightning	1
+Samsung	Android	TFT	1600x720	8	256	Qualcomm Snapdragon 865	USB Type-A	2
+Samsung	Android	TFT	3040x1440	4	32	Qualcomm Snapdragon 865	miroUSB	2
+Apple	iOS	OLED	1920x1080	4	0.032	Apple A10	Lightning	1
+Apple	iOS	IPS	1920x1080	2	32	Apple A12 Bionic	Lightning	1
+Samsung	Android	Super AMOLED	3200x1440	3	0.032	Qualcomm Snapdragon 865	USB Type-A	2
+Apple	iOS	IPS	1920x1080	6	16	Apple A13 Bionic	Lightning	1
+Xiaomi	Android	PLS	2280×1080	6	16	Qualcomm Snapdragon 865	miroUSB	2
+Samsung	Android	TFT	2280×1080	4	128	Qualcomm Snapdragon 855	USB Type-A	2
+Xiaomi	Android	Super AMOLED	1600x720	8	64	Qualcomm Snapdragon 665	miroUSB	1
+Samsung	Android	PLS	3200x1440	2	256	Exynos 9810	miroUSB	2
+Nobby	KaiOS	IPS	1280x720	1	16	Spreadtrum SC7731E	miroUSB	2
+Xiaomi	Android	Super AMOLED	2400×1080	4	64	Qualcomm Snapdragon 865	USB Type-C	2
+Samsung	Android	Super AMOLED	3200x1440	6	32	Qualcomm Snapdragon 845	USB Type-A	1
+Xiaomi	Android	PLS	1600x720	3	128	Qualcomm Snapdragon 845	USB Type-C	2
+Nokia	Android	TFT	160×128	0.032	64	MediaTek MT6261D	miroUSB	2
+Samsung	Android	TFT	3040x1440	6	16	Exynos 9820	USB Type-C	2
+Nokia	S30	TFT	240×320	2	16	MediaTek MT6261D	miroUSB	2
+Xiaomi	Android	TFT	2400×1080	2	128	Qualcomm Snapdragon 665	miroUSB	2
+Samsung	Android	PLS	1600x720	4	32	Exynos 9820	miroUSB	2
+Apple	iOS	OLED	1920x1080	4	256	Apple A13 Bionic	Lightning	1
+Apple	iOS	IPS	1920x1080	4	16	Apple A10	Lightning	1
+Nokia	S30	IPS	160×128	0.032	0.032	Qualcomm Snapdragon 665	miroUSB	2
+Apple	iOS	IPS	1920x1080	3	512	Apple A13 Bionic	Lightning	1
+Apple	iOS	AMOLED	1920x1080	4	128	Apple A12 Bionic	Lightning	1
+Apple	iOS	IPS	1920x1080	2	64	Apple A12 Bionic	Lightning	1
+Samsung	Android	PLS	3040x1440	8	32	Qualcomm Snapdragon 855	miroUSB	2
+Apple	iOS	OLED	1920x1080	2	512	Apple A12 Bionic	Lightning	1
+Samsung	Android	TFT	3200x1440	4	64	Qualcomm Snapdragon 845	miroUSB	2
+Samsung	Android	Super AMOLED	3040x1440	3	128	Exynos 9810	miroUSB	2
+Samsung	Android	Super AMOLED	3040x1440	2	256	Exynos 9820	miroUSB	2
+Samsung	Android	PLS	2280×1080	8	0.032	Exynos 9820	miroUSB	2
+Samsung	Android	TFT	1600x720	2	0.032	Exynos 9810	miroUSB	2
+Nokia	Android	TFT	160×128	2	16	MediaTek MT6261D	USB Type-C	2
+Apple	iOS	OLED	1920x1080	4	32	Apple A13 Bionic	Lightning	1
+Xiaomi	Android	TFT	2400×1080	8	16	Qualcomm Snapdragon 845	miroUSB	2
+Apple	iOS	AMOLED	1920x1080	4	32	Apple A10	Lightning	1
+Nobby	ThreadX	IPS	1280x720	2	0.032	Spreadtrum SC7731E	miroUSB	2
+Nokia	S30	TFT	160×128	4	0.032	MediaTek MT6261D	miroUSB	2
+Nokia	S30	TFT	240×320	1	32	Qualcomm Snapdragon 665	miroUSB	2
+Nokia	S30	TFT	240×320	4	64	MediaTek MT6261D	miroUSB	2
+Xiaomi	Android	TFT	2400×1080	3	32	Qualcomm Snapdragon 665	miroUSB	2
+Samsung	Android	TFT	3040x1440	3	0.032	Qualcomm Snapdragon 845	miroUSB	2
+Nobby	ThreadX	IPS	1280x720	1	16	Spreadtrum SC7731E	miroUSB	2
+Nobby	KaiOS	IPS	1280x720	2	0.032	Spreadtrum SC7731E	miroUSB	2
+Xiaomi	Android	TFT	1600x720	6	0.032	Qualcomm Snapdragon 665	miroUSB	2
+Apple	iOS	AMOLED	1920x1080	3	128	Apple A13 Bionic	Lightning	1
+Maxvi	Nucleus	TFT	240×320	0.032	0.032	MediaTek MT6261D	miroUSB	2
+Apple	iOS	AMOLED	1920x1080	3	64	Apple A13 Bionic	Lightning	1
+Nokia	Android	IPS	160×128	0.032	32	Qualcomm Snapdragon 665	USB Type-C	2
+Nokia	Android	IPS	160×128	1	64	Qualcomm Snapdragon 665	miroUSB	2
+Nobby	Android	IPS	1280x720	0.032	16	Spreadtrum SC7731E	miroUSB	2
+Nobby	ThreadX	IPS	1280x720	0.032	16	Spreadtrum SC7731E	miroUSB	2
+Xiaomi	Android	Super AMOLED	2400×1080	3	64	Qualcomm Snapdragon 855	USB Type-C	2
+Apple	iOS	AMOLED	1920x1080	3	16	Apple A13 Bionic	Lightning	1
+Apple	iOS	OLED	1920x1080	6	128	Apple A12 Bionic	Lightning	1
+Nokia	Android	TFT	240×320	3	32	MediaTek MT6261D	miroUSB	2
+Samsung	Android	PLS	3200x1440	2	16	Qualcomm Snapdragon 865	USB Type-C	2
+Apple	iOS	IPS	1920x1080	6	0.032	Apple A12 Bionic	Lightning	1
+Xiaomi	Android	Super AMOLED	2280×1080	6	16	Qualcomm Snapdragon 665	USB Type-C	1
+Apple	iOS	AMOLED	1920x1080	6	512	Apple A10	Lightning	1
+Nobby	KaiOS	IPS	1280x720	0.032	16	Spreadtrum SC7731E	miroUSB	2
+Maxvi	Nucleus	TFT	160×128	0.032	0.032	MediaTek MT6261D	miroUSB	2
